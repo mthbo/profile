@@ -15,22 +15,9 @@
   </head>
 
   <body>
-    <div id="sidebar">
-      <ul class="vertical-list text-center">
-        <li><a href="#user-info">
-          <i class="fa fa-user big-icon clear-font" aria-hidden="true"></i>
-        </a></li>
-        <li><a href="#artists">
-          <i class="fa fa-music big-icon clear-font" aria-hidden="true"></i>
-        </a></li>
-        <li><a href="#about">
-          <i class="fa fa-info big-icon clear-font" aria-hidden="true"></i>
-        </a></li>
-      </ul>
-    </div>
 
-    <div id="page-content">
-      <div class="container">
+    <div id="wrapper">
+      <div id="left">
         <div class="card text-center" id="user-info">
           <img src="https://avatars3.githubusercontent.com/u/22100786?v=3&s=466" alt="My profile pic" class="round-pic" width="150px">
           <h1>Mathieu B.</h1>
@@ -54,8 +41,10 @@
             </a></li>
           </ul>
         </div>
+      </div>
 
-        <div class="card text-center" id="artists">
+      <div id="right">
+        <div class="card" id="artists">
           <h2>My favorite artists</h2>
           <table>
             <tbody>
@@ -83,7 +72,11 @@
             </tbody>
           </table>
         </div>
+      </div>
 
+      <div class="clear"></div>
+
+      <div id="footer">
         <div class="card text-center" id ="about">
           <h2>About this page</h2>
           <p>This page is about me. For more information, <a href="mailto:bordeleau.mathieu@gmail.com"">email me</a>.</p>

@@ -8,27 +8,27 @@ body {
   color: rgb(70,70,70);
 }
 
-/* Page parts */
-
-#sidebar {
-  position: fixed;
-  width: 100px;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  background-color: #019875;
+#wrapper {
+  width: 80%;
+  margin: 0 auto;
+  display: float;
 }
 
-#page-content {
-  margin-left: 100px;
+#left {
+  float: left;
+  width: 30%;
+}
+
+#right {
+  float: right;
+  width: 70%;
+}
+
+.clear {
+  clear: both;
 }
 
 /* Page content */
-
-.container {
-  width: 900px;
-  margin: 0 auto;
-}
 
 .card {
   display: block;
@@ -37,6 +37,15 @@ body {
   margin: 20px;
   border-radius: 4px;
   box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+#left .card:first-child {
+  min-height: 350px;
+  padding-top: 35px
+}
+
+#right .card:first-child {
+  padding: 15px 30px;
 }
 
 .text-center {
