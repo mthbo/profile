@@ -8,8 +8,25 @@ body {
   color: rgb(70,70,70);
 }
 
+/* Page parts */
+
+#sidebar {
+  position: fixed;
+  width: 100px;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  background-color: #019875;
+}
+
+#page-content {
+  margin-left: 100px;
+}
+
+/* Page content */
+
 .container {
-  width: 700px;
+  width: 900px;
   margin: 0 auto;
 }
 
@@ -85,4 +102,19 @@ table td {
 .small-height {
   line-height: 0.5em;
 }
+
+.vertical-list {
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.vertical-list > li {
+  margin: 40px 0px;
+}
+
+.clear-font {
+  color: rgb(254,254,254);
+}
+
+
 

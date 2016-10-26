@@ -15,66 +15,80 @@
   </head>
 
   <body>
-
-    <div class="container">
-      <div class="card text-center">
-        <img src="https://avatars3.githubusercontent.com/u/22100786?v=3&s=466" alt="My profile pic" class="round-pic" width="150px">
-        <h1>Mathieu B.</h1>
-        <h2>Student @Le Wagon</h2>
-        <p>I am learning code to create great stuff.</p>
-      </div>
-
-      <div class="card text-center">
-        <ul class="inline-list">
-          <li><a href="https://www.facebook.com/mathieu.bordeleau" target="_blank">
-            <p class="small-height"><i class="fa fa-facebook big-icon" aria-hidden="true"></i></p>
-            <p class="small-height">Facebook</p>
-          </a></li>
-          <li><a href="https://www.linkedin.com/in/mathieu-bordeleau-22037b25" target="_blank">
-            <p class="small-height"><i class="fa fa-linkedin big-icon" aria-hidden="true"></i></p>
-            <p class="small-height">LinkedIn</p>
-          </a></li>
-          <li><a href="https://github.com/mthbo" target="_blank">
-            <p class="small-height"><i class="fa fa-github big-icon" aria-hidden="true"></i></p>
-            <p class="small-height">Github</p>
-          </a></li>
-        </ul>
-      </div>
-
-      <div class="card text-center">
-        <h2>My favorite artists</h2>
-        <table>
-          <tbody>
-            <tr>
-              <td><img src="http://statics.lesinrocks.com/content/thumbnails/uploads/2014/07/paradisasuivre-tt-width-600-height-400-crop-0-bgcolor-000000-nozoom_default-1-lazyload-0.jpg" alt="Paradis' picture" width="200px"></td>
-              <td>
-                <h3 class="neucha-title">Paradis</h3>
-                <p>Paradis is a French electronic music duo consisting of Simon Mény and Pierre Rousseau. The duo is currently signed to Universal label Maison Barclay. They grew to fame after releasing their first 12" single on Beats In Space titled Parfait Tirage featuring a cover of Alain Souchon's "La Ballade de Jim".</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="http://www.dominorecordco.com/images/artists/four_tet/620_319.62068965517/fourtetpresssized.jpg" alt="Four Tet's picture" width="200px"></td>
-              <td>
-                <h3 class="neucha-title">Four Tet</h3>
-                <p>Kieran Hebden, bestneucha-titlehe stage name Four Tet, is an English post-rock and electronic musician. Hebden's music originally eschewed the traditional pop song format in favour of a more abstract approach—his sound and melodies incorporate elements of hip hop, electronica, techno, jazz, grime and folk music with live instrumentation. His newer works are inspired heavily by house music.</p>
-              </td>
-            </tr>
-            <tr>
-              <td><img src="http://www.nosenchanteurs.eu/wp-content/uploads/2015/11/alain-chamfort.jpg" alt="Chamfort's picture" width="200px"></td>
-              <td>
-                <h3 class="neucha-title">Alain Chamfort</h3>
-                <p>Alain Chamfort is a French singer of Breton origin. He was a promising pianist in his youth, and the piano became his instrument of choice. He met famed writer and producer, Jacques Dutronc, who proposed to help Chamfort with future works for television and film, and it is with Dutronc that Chamfort's career expanded.</p>
-              </td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-
-      <div class="card text-center">
-        <h2>About this page</h2>
-        <p>This page is about me. For more information, <a href="mailto:bordeleau.mathieu@gmail.com"">email me</a>.</p>
-      </div>
+    <div id="sidebar">
+      <ul class="vertical-list text-center">
+        <li><a href="#user-info">
+          <i class="fa fa-user big-icon clear-font" aria-hidden="true"></i>
+        </a></li>
+        <li><a href="#artists">
+          <i class="fa fa-music big-icon clear-font" aria-hidden="true"></i>
+        </a></li>
+        <li><a href="#about">
+          <i class="fa fa-info big-icon clear-font" aria-hidden="true"></i>
+        </a></li>
+      </ul>
     </div>
 
+    <div id="page-content">
+      <div class="container">
+        <div class="card text-center" id="user-info">
+          <img src="https://avatars3.githubusercontent.com/u/22100786?v=3&s=466" alt="My profile pic" class="round-pic" width="150px">
+          <h1>Mathieu B.</h1>
+          <h2>Student @Le Wagon</h2>
+          <p>I am learning code to create great stuff.</p>
+        </div>
+
+        <div class="card text-center">
+          <ul class="inline-list">
+            <li><a href="https://www.facebook.com/mathieu.bordeleau" target="_blank">
+              <p class="small-height"><i class="fa fa-facebook big-icon" aria-hidden="true"></i></p>
+              <p class="small-height">Facebook</p>
+            </a></li>
+            <li><a href="https://www.linkedin.com/in/mathieu-bordeleau-22037b25" target="_blank">
+              <p class="small-height"><i class="fa fa-linkedin big-icon" aria-hidden="true"></i></p>
+              <p class="small-height">LinkedIn</p>
+            </a></li>
+            <li><a href="https://github.com/mthbo" target="_blank">
+              <p class="small-height"><i class="fa fa-github big-icon" aria-hidden="true"></i></p>
+              <p class="small-height">Github</p>
+            </a></li>
+          </ul>
+        </div>
+
+        <div class="card text-center" id="artists">
+          <h2>My favorite artists</h2>
+          <table>
+            <tbody>
+              <tr>
+                <td><img src="http://statics.lesinrocks.com/content/thumbnails/uploads/2014/07/paradisasuivre-tt-width-600-height-400-crop-0-bgcolor-000000-nozoom_default-1-lazyload-0.jpg" alt="Paradis' picture" width="200px"></td>
+                <td>
+                  <h3 class="neucha-title">Paradis</h3>
+                  <p>Paradis is a French electronic music duo consisting of Simon Mény and Pierre Rousseau. The duo is currently signed to Universal label Maison Barclay. They grew to fame after releasing their first 12" single on Beats In Space titled Parfait Tirage featuring a cover of Alain Souchon's "La Ballade de Jim".</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="http://www.dominorecordco.com/images/artists/four_tet/620_319.62068965517/fourtetpresssized.jpg" alt="Four Tet's picture" width="200px"></td>
+                <td>
+                  <h3 class="neucha-title">Four Tet</h3>
+                  <p>Kieran Hebden, bestneucha-titlehe stage name Four Tet, is an English post-rock and electronic musician. Hebden's music originally eschewed the traditional pop song format in favour of a more abstract approach—his sound and melodies incorporate elements of hip hop, electronica, techno, jazz, grime and folk music with live instrumentation. His newer works are inspired heavily by house music.</p>
+                </td>
+              </tr>
+              <tr>
+                <td><img src="http://www.nosenchanteurs.eu/wp-content/uploads/2015/11/alain-chamfort.jpg" alt="Chamfort's picture" width="200px"></td>
+                <td>
+                  <h3 class="neucha-title">Alain Chamfort</h3>
+                  <p>Alain Chamfort is a French singer of Breton origin. He was a promising pianist in his youth, and the piano became his instrument of choice. He met famed writer and producer, Jacques Dutronc, who proposed to help Chamfort with future works for television and film, and it is with Dutronc that Chamfort's career expanded.</p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="card text-center" id ="about">
+          <h2>About this page</h2>
+          <p>This page is about me. For more information, <a href="mailto:bordeleau.mathieu@gmail.com"">email me</a>.</p>
+        </div>
+      </div>
+    </div>
   </body>
 </html>
